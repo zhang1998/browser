@@ -1,0 +1,19 @@
+!SESSION 2018-02-08 15:39:30.269 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2018-02-08 16:01:09.834
+!MESSAGE Failed to load properties file for project 'Webview'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2018-02-08 16:02:01.565
+!MESSAGE LayoutLibrary initialization failed
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2018-02-08 16:02:02.054
+!MESSAGE activity_main.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2018-02-08 16:04:08.964
+!MESSAGE activity_main.xml: The SDK layoutlib version is not supported
