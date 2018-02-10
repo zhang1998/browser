@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/shortcut_menu_switch_container" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/shortcut_menu_switch" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5601"
+            <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_weight="1.0">
+                <TextView android:textSize="14dp" android:id="@id/shortcut_menu_switch_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/shortcut_menu_setting_switch_title" />
+                <TextView android:textSize="10dp" android:id="@id/shortcut_menu_switch_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shortcut_menu_setting_switch_subtitle" />
+            </LinearLayout>
+            <android.support.v7.widget.SwitchCompat android:id="@id/shortcut_menu_switch_compat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/shortcut_menu_tip_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+            <TextView android:textSize="10dp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/shortcut_menu_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/shortcut_menu_setting_tip_text" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/shortcut_menu_items_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" /> />
+</ScrollView>

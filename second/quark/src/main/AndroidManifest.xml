@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50" android:versionName="2.4.1.985" package="com.quark.browser" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <application android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.ucpro.QuarkApplication" android:allowBackup="false" android:largeHeap="true" android:supportsRtl="true">
+        <activity android:label="ucpro" android:name="com.quark.browser.wxapi.WXEntryActivity" android:exported="true" android:taskAffinity="wxapi.WXEntryActivity" android:finishOnTaskLaunch="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize" android:noHistory="true" />
+        <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1105781586" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="1200699f230a872fc47edc86fe648595" />
+        <service android:name="com.amap.api.location.APSService" />
+        <activity android:theme="@style/MainActivityTheme" android:name="com.ucpro.MainActivity" android:launchMode="singleTask">
+            <intent-filter android:label="@string/app_name_in_launcher">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ut.24493918" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="text/xml" />
+                <data android:mimeType="application/xhtml+xml" />
+                <data android:mimeType="application/vnd.wap.xhtml+xml" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH" />
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH" />
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+            </intent-filter>
+            <intent-filter android:label="@string/search_pic">
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="player" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TransparentTheme" android:name="com.ucpro.feature.bookmarkhis.bookmark.thirdparty.AddFavoriteActivity" android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale" android:resizeableActivity="false">
+            <intent-filter android:label="@string/add_favorite" android:icon="@mipmap/ic_launcher">
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TransparentDownloadFriendTheme" android:name="com.ucpro.feature.downloadpage.thirdinvoke.QuarkDownloadForThirdParty" android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale" android:resizeableActivity="false">
+            <intent-filter android:label="@string/download_friend_invoke" android:icon="@mipmap/ic_launcher">
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/BrowserTheme" android:name="com.ucpro.BrowserActivity" android:launchMode="singleTask" android:configChanges="mcc|mnc|keyboard|keyboardHidden|orientation|screenSize|fontScale" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:theme="@style/MaskViewTransparentTheme" android:name="com.ucpro.feature.defaultbrowser.view.SetDefaultTipsActivity" />
+        <activity android:label="@string/proxy_activty_label" android:name="com.ucpro.feature.webwindow.external.ProxyActivity" android:screenOrientation="user" android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale">
+            <intent-filter>
+                <action android:name="com.uc.browser.action.CALL_PROXY_VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.ucweb.login.qq.LoginQQHelper" android:screenOrientation="behind" android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.ucweb.login.weibo.LoginWeiboHelper" android:screenOrientation="behind" android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="behind" android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale" />
+        <service android:name="com.ucpro.feature.video.MediaPlayerService" android:process=":MediaPlayerService" />
+        <receiver android:name="com.ucpro.services.networkstate.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ucpro.services.download.broadcast.DonwloadBroadcastReceiver" />
+        <receiver android:name="com.ucpro.visible.PlayReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.alibaba.analytics.AnalyticsService" android:exported="false" android:process=":channel" />
+        <service android:name="com.ucpro.business.stat.RemoteStatService" android:exported="false" android:process=":RemoteStatService" />
+        <service android:name="com.ucpro.patch.PatchService" android:exported="false" android:process=":quarkpatch" />
+        <service android:name="com.uc.quark.filedownloader.services.FileDownloadService$SeparateProcessService" android:exported="false" android:process=":filedownloader" />
+        <provider android:name="com.uc.quark.filedownloader.contentprovider.FileStatusContentProvider" android:exported="false" android:authorities="com.quark.browser.provider" />
+        <service android:name="com.uc.quark.p2p.service.P2pVideoPlayService" android:exported="false" android:process=":p2pvideoplay" />
+        <receiver android:name="com.taobao.weex.WXGlobalEventReceiver" android:enabled="true" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" android:label="AerieDeployment" android:name="com.uc.aerie.updater.test.AerieUpdaterTestActivity" android:exported="false" android:process=":aerie_updater" android:launchMode="singleTask" android:resizeableActivity="false" />
+        <meta-data android:name="multidex_enable" android:value="true" />
+        <activity android:name="com.quark.browser.A$1" android:launchMode="standard" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.quark.browser.A$2" android:launchMode="standard" />
+        <activity android:name="com.quark.browser.AR$1" android:process=":daemon" android:launchMode="standard" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.quark.browser.AR$2" android:process=":daemon" android:launchMode="standard" />
+        <activity android:name="com.quark.browser.B$1" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$2" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$3" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$4" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$5" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$6" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$7" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.B$8" android:launchMode="singleTop" />
+        <activity android:name="com.quark.browser.C$1" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$2" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$3" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$4" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$5" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$6" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$7" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.C$8" android:launchMode="singleTask" />
+        <activity android:name="com.quark.browser.D$1" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$2" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$3" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$4" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$5" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$6" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$7" android:launchMode="singleInstance" />
+        <activity android:name="com.quark.browser.D$8" android:launchMode="singleInstance" />
+    </application>
+</manifest>

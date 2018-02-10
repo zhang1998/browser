@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/lab_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ucpro.ui.widget.RoundRectView android:id="@id/lab_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/lab_item_footer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp">
+                <TextView android:textSize="12dp" android:id="@id/lab_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Doodle博物馆" />
+                <TextView android:textSize="8dp" android:id="@id/lab_item_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="Doodle博物馆222222" />
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_item_btn_bg" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="13dp">
+                <TextView android:textSize="12dp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lab_item_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quark_lab_item_btn_text" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+</LinearLayout>

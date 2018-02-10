@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="11dp" android:textColor="#666666" android:id="@id/tv_path_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:text="@string/download_path" />
+    <RelativeLayout android:id="@id/rl_edit" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="14dp" android:textColor="#222222" android:ellipsize="end" android:id="@id/tv_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/edit" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.ucpro.ui.widget.TextCheckBox android:id="@id/wifi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" />
+    <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="11dp" android:textColor="#666666" android:id="@id/open_thread_set_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="6dp" android:text="@string/download_thread_desc" />
+    <com.ucpro.ui.widget.TextCheckBox android:id="@id/open_thread_set" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

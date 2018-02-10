@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dialog_margin_left" android:layout_marginTop="@dimen/common_dialog_margin_top" android:layout_marginRight="@dimen/common_dialog_margin_left" android:layout_marginBottom="@dimen/common_dialog_margin_top">
+        <TextView android:textSize="@dimen/common_dialog_text_size" android:ellipsize="end" android:id="@id/toolbar_style_dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/toolbar_style_dialog_3btn_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_style_dialog_common_margin_top" android:layout_marginBottom="@dimen/toolbar_style_dialog_common_margin_bottom">
+            <ImageView android:id="@id/toolbar_style_dialog_3btn_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/common_dialog_text_size" android:id="@id/toolbar_style_dialog_3btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toolbar_style_dialog_text_margin_left" />
+        </LinearLayout>
+        <ImageView android:id="@id/toolbar_style_dialog_3btn_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/toolbar_style_dialog_5btn_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_style_dialog_common_margin_top" android:layout_marginBottom="@dimen/toolbar_style_dialog_common_margin_bottom">
+            <ImageView android:id="@id/toolbar_style_dialog_5btn_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/common_dialog_text_size" android:id="@id/toolbar_style_dialog_5btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toolbar_style_dialog_text_margin_left" />
+        </LinearLayout>
+        <ImageView android:id="@id/toolbar_style_dialog_5btn_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

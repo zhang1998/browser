@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="12dp">
+        <ImageView android:id="@id/personal_login_image" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginLeft="32dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+            <TextView android:textSize="18dp" android:id="@id/personal_login_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/personal_login_page_title" />
+            <TextView android:textSize="12dp" android:id="@id/personal_login_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/personal_login_page_subtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/personal_login_phone_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginRight="36dp">
+        <com.ucweb.materialedittext.MaterialEditText android:textSize="14dp" android:id="@id/personal_login_phone_edit" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" />
+        <TextView android:textSize="16dp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/personal_login_get_idcode_btn" android:paddingTop="12dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_sync_get_verif_code" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/personal_login_idcode_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginRight="36dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ucweb.materialedittext.MaterialEditText android:textSize="14dp" android:id="@id/personal_login_idcode_edit" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" />
+            <TextView android:textSize="16dp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/personal_login_retrieve_idcode_btn" android:paddingTop="12dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_sync_again_verif_code" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="10dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/personal_login_send_tip" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1b01" android:layout_marginTop="8dp" android:text="已发送到18920787888" />
+    </FrameLayout>
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <ImageView android:id="@id/personal_login_weibo" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="20dp" />
+        <ImageView android:id="@id/personal_login_weixin" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="20dp" />
+        <ImageView android:id="@id/personal_login_qq" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" />
+    </LinearLayout>
+</LinearLayout>

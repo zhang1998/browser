@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="hardcode_bookmark_names">
+        <item>Yahoo</item>
+        <item>Wikipedia</item>
+        <item>Amazon</item>
+        <item>Tumblr</item>
+        <item>Pinterest</item>
+        <item>Quora</item>
+    </array>
+    <array name="hardcode_bookmark_urls">
+        <item>https://www.yahoo.com/</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>https://www.amazon.com/</item>
+        <item>https://www.tumblr.com/</item>
+        <item>https://www.pinterest.com/</item>
+        <item>https://www.quora.com/</item>
+    </array>
+    <array name="hardcode_navigation_titles">
+        <item>CNN</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>YouTube</item>
+    </array>
+    <array name="hardcode_navigation_urls">
+        <item>http://www.cnn.com</item>
+        <item>https://www.facebook.com</item>
+        <item>https://mobile.twitter.com</item>
+        <item>https://m.youtube.com</item>
+    </array>
+    <array name="hardcode_vertical_search_engine_iconnames">
+        <item>search_weibo_icon.svg</item>
+        <item>search_zhihu_icon.svg</item>
+        <item>search_youku_icon.svg</item>
+        <item>search_douban_icon.svg</item>
+        <item>search_weixin_icon.svg</item>
+    </array>
+    <array name="hardcode_vertical_search_engine_names">
+        <item>微博</item>
+        <item>知乎</item>
+        <item>优酷</item>
+        <item>豆瓣</item>
+        <item>微信</item>
+    </array>
+    <array name="hardcode_vertical_search_engine_urls">
+        <item>http://s.weibo.com/weibo/%s</item>
+        <item>http://www.zhihu.com/search?type=content&amp;q=%s</item>
+        <item>http://www.soku.com/m/y/video?q=%s&amp;tpa=dW5pb25faWQ9MTAzOTQyXzEwMDAwMV8wMV8wMQ</item>
+        <item>https://m.douban.com/search/?query=%s</item>
+        <item>http://weixin.sogou.com/weixinwap?type=2&amp;query=%s</item>
+    </array>
+    <array name="home_button_keywords">
+        <item>home page button</item>
+        <item>back to home</item>
+        <item>go to home</item>
+        <item>home button</item>
+    </array>
+    <array name="night_mode_keywords">
+        <item>night mode</item>
+    </array>
+    <array name="quit_button_keywords">
+        <item>exit button</item>
+        <item>Exit button</item>
+        <item>How to exit</item>
+        <item>exit entrance</item>
+        <item>exit menu</item>
+    </array>
+</resources>

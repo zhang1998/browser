@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@id/add_task" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/add_task_iv" android:paddingLeft="24dp" android:paddingRight="24dp" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="10dp" android:textColor="#666666" android:ellipsize="middle" android:id="@id/store" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+    <LinearLayout android:id="@id/set" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/set_iv" android:paddingLeft="24dp" android:paddingRight="24dp" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

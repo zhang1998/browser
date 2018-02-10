@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090103">
+    <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fl_icon_content" android:layout_width="UNKNOWN_DATA_0x7f090105" android:layout_height="UNKNOWN_DATA_0x7f090105" android:layout_marginLeft="@dimen/dicover_page_bookmark_item_icon_marginleft" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_discover_icon_default" android:layout_width="UNKNOWN_DATA_0x7f090105" android:layout_height="UNKNOWN_DATA_0x7f090105" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_discover_icon_web" android:layout_width="UNKNOWN_DATA_0x7f090106" android:layout_height="UNKNOWN_DATA_0x7f090106" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dicover_page_bookmark_item_title_marginleft" android:layout_marginRight="@dimen/dicover_page_bookmark_item_title_marginright" android:layout_toLeftOf="@id/fl_arrow_content" android:layout_toRightOf="@id/fl_icon_content" android:layout_centerVertical="true">
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/dicover_page_bookmark_item_title_size" android:ellipsize="end" android:id="@id/tv_discover_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_arrow_content" android:layout_width="UNKNOWN_DATA_0x7f090103" android:layout_height="UNKNOWN_DATA_0x7f090103" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_discover_arrow" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f090105" android:layout_height="UNKNOWN_DATA_0x7f090105" android:layout_marginRight="@dimen/dicover_page_bookmark_item_arrow_marginright" />
+    </FrameLayout>
+</RelativeLayout>

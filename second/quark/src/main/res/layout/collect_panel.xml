@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="26dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ucpro.feature.collectpanel.view.TextViewWithCheckBox android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/collect_panel_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="11dp" android:id="@id/collect_panel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="标题" />
+        <com.ucpro.feature.collectpanel.view.InputTextBox android:id="@id/collect_panel_input" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" />
+        <com.ucpro.feature.bookmarkhis.bookmark.category.CategorySelectContainer android:id="@id/collect_panel_category_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+    </LinearLayout>
+    <com.ucpro.feature.bookmarkhis.bookmark.category.CategoryEditBar android:id="@id/collect_panel_footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" />
+</LinearLayout>

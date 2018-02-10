@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09004d">
+    <RelativeLayout android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/bm_v_bg" android:background="@color/common_titlebar__background_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09004e" android:layout_marginTop="@dimen/bookmark_delete_dialog_padding_top" />
+        <ImageView android:id="@id/bm_iv_tips" android:layout_width="UNKNOWN_DATA_0x7f09004f" android:layout_height="UNKNOWN_DATA_0x7f09004f" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bm_ll_bg" android:background="@color/common_titlebar__background_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:textColor="@color/common_titlebar_title_color" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bm_tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bookmark_delete_dialog_padding_top" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:textColor="@color/common_titlebar_title_color" android:id="@id/bm_tv_left" android:padding="@dimen/bookmark_delete_dialog_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bookmark_delete_dialog_padding_top" android:layout_marginBottom="@dimen/bookmark_delete_dialog_margin_bottom" android:text="@string/bookmark_cancel" android:layout_centerVertical="true" />
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:textColor="@color/common_titlebar_title_color" android:id="@id/bm_tv_right" android:padding="@dimen/bookmark_delete_dialog_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bookmark_delete_dialog_padding_top" android:layout_marginBottom="@dimen/bookmark_delete_dialog_margin_bottom" android:text="@string/bookmark_ok" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

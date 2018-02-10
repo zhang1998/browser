@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/wallpaper_preview_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4801">
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/wallpaper_preview_logo_btn" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28dp">
+            <View android:id="@id/wallpaper_preview_logo_select" android:layout_width="UNKNOWN_DATA_0x1101" android:layout_height="UNKNOWN_DATA_0x1101" />
+            <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/quark_lab_wallper_setting_enable_logo" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wallpaper_preview_confim_btn" android:layout_width="UNKNOWN_DATA_0x4c01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="38dp">
+            <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quark_lab_wallper_preview_confim" />
+        </FrameLayout>
+    </FrameLayout>
+</merge>

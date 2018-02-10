@@ -1,0 +1,19 @@
+package com.bumptech.glide.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.CLASS)
+/* compiled from: ProGuard */
+public @interface GlideOption {
+    boolean memoizeStaticMethod() default false;
+
+    int override() default 0;
+
+    boolean skipStaticMethod() default false;
+
+    String staticMethodName() default "";
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@n/update_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010077" />
+    <TextView android:id="@n/update_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="正在部署，请耐心等待..." android:layout_below="@n/update_progress" android:layout_centerHorizontal="true" />
+    <Button android:id="@n/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="取消" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

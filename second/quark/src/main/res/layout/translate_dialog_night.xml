@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ucpro.ui.scrollview.ScrollViewWithMaxHeight android:scrollbarSize="2dp" android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb_night" android:id="@id/translate_sv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_marginTop="33dp" android:layout_marginRight="6dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp">
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="11dp" android:id="@id/translate_source_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/translate_source_text" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="14dp" android:id="@id/translate_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="11dp" android:id="@id/translate_target_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33dp" android:text="@string/translate_target_text" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="14dp" android:id="@id/translate_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.ucpro.ui.scrollview.ScrollViewWithMaxHeight>
+</FrameLayout>

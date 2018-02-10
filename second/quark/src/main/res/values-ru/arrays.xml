@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="hardcode_bookmark_names">
+    </array>
+    <array name="hardcode_bookmark_urls">
+    </array>
+    <array name="hardcode_navigation_titles">
+        <item>VK</item>
+        <item>Яндекс</item>
+        <item>Youtube</item>
+        <item>OK</item>
+        <item>Mail.Ru</item>
+        <item>Google</item>
+    </array>
+    <array name="hardcode_navigation_urls">
+        <item>http://m.vk.com/feed</item>
+        <item>https://www.yandex.ru/</item>
+        <item>http://m.youtube.com/</item>
+        <item>http://m.ok.ru</item>
+        <item>https://mail.ru/?from=m</item>
+        <item>https://www.google.ru/</item>
+    </array>
+    <array name="hardcode_vertical_search_engine_iconnames">
+        <item>search_wikipedia.png</item>
+        <item>search_vk.png</item>
+        <item>search_youtube.png</item>
+        <item>search_instagram.png</item>
+        <item>search_zaycev.png</item>
+    </array>
+    <array name="hardcode_vertical_search_engine_names">
+        <item>Википедия</item>
+        <item>Вконтакте</item>
+        <item>Youtube</item>
+        <item>Instagram</item>
+        <item>Зайцев</item>
+    </array>
+    <array name="hardcode_vertical_search_engine_urls">
+        <item>https://ru.m.wikipedia.org/wiki/%s</item>
+        <item>https://m.vk.com/feed?section=search&amp;q=%s</item>
+        <item>https://m.youtube.com/results?q=%s</item>
+        <item>https://www.instagram.com/explore/tags/%s/</item>
+        <item>http://go.mail.ru/mzaycev?q=%s</item>
+    </array>
+    <array name="home_button_keywords">
+        <item>home page button</item>
+        <item>back to home</item>
+        <item>go to home</item>
+        <item>home button</item>
+    </array>
+    <array name="night_mode_keywords">
+        <item>night mode</item>
+    </array>
+    <array name="quit_button_keywords">
+        <item>exit button</item>
+        <item>Exit button</item>
+        <item>How to exit</item>
+        <item>exit entrance</item>
+        <item>exit menu</item>
+    </array>
+</resources>

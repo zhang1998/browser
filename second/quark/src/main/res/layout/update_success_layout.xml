@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@n/fail_result_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp">
+        <TextView android:textSize="16sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/success_result_item" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="部署结果:" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:textColor="#ff0000" android:id="@n/success_result" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@n/cost_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_below="@n/fail_result_layout">
+        <TextView android:textSize="16sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/cost_item" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="部署耗时:" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:textColor="#ff0000" android:id="@n/cost" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_below="@n/cost_layout">
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/module_name" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/merge_dex" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/opt" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/merge_res" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/merge_so" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <Button android:id="@n/success_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="完成" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:paddingTop="@dimen/download_path_select_padding_top" android:paddingBottom="@dimen/download_path_select_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/download_path_select_margin" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <View android:id="@id/select_v_tips" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0902c4" android:layout_height="UNKNOWN_DATA_0x7f0902c4" />
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_path_select_text_content_size" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/select_tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_path_select_text_desc_size" android:id="@id/select_tv_desc" android:paddingTop="@dimen/download_path_select_padding_top" android:paddingBottom="@dimen/download_path_select_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/download_path_select_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

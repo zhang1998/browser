@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@id/bm_ll_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_text_size" android:ellipsize="end" android:id="@id/bm_tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dialog_margin_left" android:layout_marginTop="@dimen/common_dialog_margin_top" android:layout_marginRight="@dimen/common_dialog_margin_right" android:layout_marginBottom="@dimen/common_dialog_margin_bottom" android:maxLines="2" />
+    </LinearLayout>
+</LinearLayout>

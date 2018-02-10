@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f09015f">
+    <ProgressBar app:id="@id/download_progress" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f09015f" app:maxHeight="@dimen/download_list_item_height" app:minHeight="@dimen/download_list_item_height" style="@style/download_progress" />
+    <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f09015f">
+        <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/download_icon" app:layout_width="UNKNOWN_DATA_0x7f090161" app:layout_height="UNKNOWN_DATA_0x7f090161" app:layout_marginLeft="@dimen/download_list_item_icon_margin_left" />
+        <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/download_list_item_text_margin_right" app:layout_marginRight="@dimen/download_list_item_text_margin_right" app:layout_weight="1.0">
+            <com.ucpro.ui.widget.auto.theme.ATTextView app:textSize="@dimen/download_list_item_title_size" app:ellipsize="middle" app:id="@id/download_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:singleLine="true" />
+            <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/download_list_item_title_content_margin">
+                <com.ucpro.ui.widget.auto.theme.ATTextView app:textSize="@dimen/download_list_item_content_size" app:id="@id/download_total_progress" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerVertical="true" />
+                <com.ucpro.ui.widget.auto.theme.ATTextView app:textSize="@dimen/download_list_item_content_size" app:id="@id/download_speed" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/download_status" app:layout_width="UNKNOWN_DATA_0x7f090163" app:layout_height="UNKNOWN_DATA_0x7f090163" app:layout_marginRight="@dimen/download_list_item_status_icon_padding" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@id/bm_ll_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_text_size" android:textColor="@color/common_titlebar_title_color" android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/edit_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/common_dialog_margin_bottom" android:layout_marginTop="@dimen/common_dialog_margin_top" android:maxLines="1" />
+        <com.ucpro.ui.edittext.CustomEditText android:textSize="@dimen/common_dialog_text_size" android:textColor="@color/common_titlebar_title_color" android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/input_edit_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/common_dialog_margin_bottom" android:layout_marginTop="@dimen/common_dialog_margin_top" android:maxLines="20" />
+    </LinearLayout>
+</LinearLayout>

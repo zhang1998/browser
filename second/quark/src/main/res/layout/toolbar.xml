@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0900cd">
+        <FrameLayout android:id="@id/rl_title_left" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_titlebar_pandding_left" android:layout_marginTop="@dimen/common_titlebar_pandding_top" android:layout_marginRight="@dimen/common_titlebar_pandding_right" android:layout_marginBottom="@dimen/common_titlebar_pandding_bottom">
+                <ImageView android:id="@id/iv_left" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0900d6" android:layout_height="UNKNOWN_DATA_0x7f0900d6" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerVertical="true" />
+                <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:id="@id/tv_left" android:paddingLeft="1dp" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_left" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_title_contain" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@id/rl_title_right" android:layout_toRightOf="@id/rl_title_left" android:layout_centerInParent="true">
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/titlebar_title_size" android:ellipsize="middle" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/rl_title_right" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_titlebar_pandding_left" android:layout_marginTop="@dimen/common_titlebar_pandding_top" android:layout_marginRight="@dimen/common_titlebar_pandding_right" android:layout_marginBottom="@dimen/common_titlebar_pandding_bottom">
+                <com.ucpro.ui.widget.AnimateImageView android:id="@id/iv_right" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0900d6" android:layout_height="UNKNOWN_DATA_0x7f0900d6" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerVertical="true" />
+                <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:id="@id/tv_right" android:paddingLeft="1dp" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_right" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:id="@id/title_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0900ce" />
+</LinearLayout>

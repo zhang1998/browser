@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/setting_about_head_blue" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0xd701" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="34dp" android:layout_marginTop="124dp">
+        <View android:id="@id/setting_about_logo" android:layout_width="UNKNOWN_DATA_0x8a01" android:layout_height="UNKNOWN_DATA_0x2b01" />
+        <TextView android:textSize="14dp" android:id="@id/setting_about_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        <TextView android:textSize="14dp" android:id="@id/setting_about_core_stat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+    </LinearLayout>
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/setting_about_bottom_green" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="UNKNOWN_DATA_0x6e01" />
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28dp" android:layout_marginBottom="30dp"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+            <View android:id="@id/setting_about_uc_icon" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_marginRight="6dp" />
+            <TextView android:textSize="10dp" android:id="@id/setting_about_uc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="10dp" android:id="@id/setting_about_agreement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" />
+            <TextView android:textSize="10dp" android:id="@id/setting_about_privacy_agreement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" />
+            <TextView android:textSize="10dp" android:id="@id/setting_about_forum" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="34dp" android:layout_marginBottom="192dp"
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_about_function_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/setting_about_function_icon" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" />
+            <TextView android:textSize="14dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/setting_about_function_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="14dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_about_version_check_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+            <View android:id="@id/setting_about_version_check_icon" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" />
+            <TextView android:textSize="14dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/setting_about_version_check_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="14dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_about_share_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+            <View android:id="@id/setting_about_share_icon" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" />
+            <TextView android:textSize="14dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/setting_about_share_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

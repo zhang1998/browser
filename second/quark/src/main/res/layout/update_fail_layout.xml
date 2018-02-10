@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@n/fail_result_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp">
+        <TextView android:textSize="16sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/fail_item" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="部署结果:" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:textColor="#ff0000" android:id="@n/fail_result" android:padding="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@n/errno_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_below="@n/fail_result_layout">
+        <TextView android:textSize="16sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@n/errno_item" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="错误码:" android:layout_weight="1.0" />
+        <TextView android:textSize="16sp" android:textColor="#ff0000" android:id="@n/errno" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="2.0" />
+    </LinearLayout>
+    <TextView android:textSize="16sp" android:textColor="#ff0000" android:id="@n/errno_info" android:padding="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_below="@n/errno_layout" />
+    <Button android:id="@n/fail_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="完成" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

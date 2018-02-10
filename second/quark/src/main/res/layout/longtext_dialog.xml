@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/longtextbg_liner" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/longtext_titleliner" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/longtext_titileinfo_imagev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/longtext_dialog_edittext_margin_bottom" android:contentDescription="@string/app_name" />
+            <com.ucpro.ui.widget.TextView android:textSize="@dimen/longtext_dialog_button_size" android:id="@id/longtext_titile_textv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.8dp" />
+        </LinearLayout>
+        <com.ucpro.ui.widget.EditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/contenteditext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/longtext_dialog_edittext_margin_bottom" android:layout_marginTop="21.16dp" android:layout_marginRight="@dimen/longtext_dialog_edittext_margin_bottom" android:layout_marginBottom="17.83dp" android:maxLines="3" android:minLines="3" android:ems="10" android:singleLine="false">
+            <requestFocus />
+        </com.ucpro.ui.widget.EditText>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/longtext_dialog_buttonlayout_margin_left" android:layout_marginRight="@dimen/longtext_dialog_buttonlayout_margin_left" android:layout_marginBottom="@dimen/longtext_dialog_buttonlayout_margin_bottom">
+            <com.ucpro.ui.widget.Button android:textSize="@dimen/longtext_dialog_button_size" android:id="@id/positivebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/longtext_dialog_buttonlayout_margin_bottom" android:minWidth="1dp" android:minHeight="1dp" android:layout_weight="1.0" />
+            <com.ucpro.ui.widget.Button android:textSize="@dimen/longtext_dialog_button_size" android:id="@id/negativebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="1dp" android:minHeight="1dp" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

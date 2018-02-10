@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="@dimen/common_dialog_margin_top" android:paddingBottom="@dimen/common_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/common_dialog_margin_left" android:paddingRight="@dimen/common_dialog_margin_left" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/upgrade_avatar" android:layout_width="UNKNOWN_DATA_0x7f0902fd" android:layout_height="UNKNOWN_DATA_0x7f0902fd" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upgrade_dialog_avatar_margin_nickname">
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/upgrade_dialog_nickname_size" android:id="@id/upgrade_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/upgrade_dialog_job_title_size" android:id="@id/upgrade_jobtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.ucpro.ui.scrollview.ScrollViewWithMaxHeight android:scrollbarSize="2dp" android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb_night" android:id="@id/upgrade_sv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_marginTop="@dimen/upgrade_dialog_content_margin_avatar" android:layout_marginRight="6dp">
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/upgrade_dialog_content_text_size" android:id="@id/upgrade_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp" android:lineSpacingExtra="3dp" />
+    </com.ucpro.ui.scrollview.ScrollViewWithMaxHeight>
+</LinearLayout>

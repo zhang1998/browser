@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/quark_lab_listview_padding_left" android:paddingTop="20dp" android:paddingRight="@dimen/quark_lab_listview_padding_left" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/quark_lab_icon" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:textSize="18dp" android:id="@id/quark_lab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quark_lab_above_text" />
+            <TextView android:textSize="14dp" android:id="@id/quark_lab_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quark_lab_below_text" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp">
+        <View android:id="@id/quark_lab_tip_color_bar" android:layout_width="UNKNOWN_DATA_0x301" android:layout_height="UNKNOWN_DATA_0xc01" />
+        <TextView android:textSize="12dp" android:id="@id/quark_lab_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/quark_lab_tip_text" />
+    </LinearLayout>
+</LinearLayout>

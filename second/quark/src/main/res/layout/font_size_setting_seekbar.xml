@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f09017f" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/font_size_setting_margin_bottom" android:maxHeight="@dimen/font_size_setting_seekbar_max_height" />

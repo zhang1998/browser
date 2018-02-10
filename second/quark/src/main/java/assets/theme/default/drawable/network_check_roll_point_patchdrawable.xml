@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<patch-drawable xmlns:android="http://schemas.android.com/apk/res/android">
+    <patch android:drawable="network_check_roll_point.png" android:x="0" android:y="0" android:width="21" android:height="21" android:name="roll_point_3" />
+    <patch android:drawable="network_check_roll_point.png" android:x="21" android:y="0" android:width="21" android:height="21" android:name="roll_point_2" />
+    <patch android:drawable="network_check_roll_point.png" android:x="42" android:y="0" android:width="21" android:height="21" android:name="roll_point_1" />
+</patch-drawable>

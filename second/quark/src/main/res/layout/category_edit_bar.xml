@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14dp" android:textColor="#222222" android:id="@id/cancel_btn" android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" />
+    <FrameLayout android:id="@id/edit_btn_container" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="14dp" android:textColor="#5c86f0" android:id="@id/confim_btn" android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" />
+    <TextView android:textSize="14dp" android:textColor="#5c86f0" android:id="@id/add_btn" android:padding="24dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加" />
+</merge>

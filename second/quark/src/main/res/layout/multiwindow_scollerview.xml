@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ucpro.ui.scrollview.HorizontalOverScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarSize="3dp" android:scrollbarThumbHorizontal="@drawable/multiwindow_scrollerview_bar" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false" android:overScrollMode="ifContentScrolls" />

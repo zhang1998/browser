@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/fl_item" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09025c">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_privacymode_icon" android:layout_width="UNKNOWN_DATA_0x7f09025a" android:layout_height="UNKNOWN_DATA_0x7f09025a" android:layout_marginLeft="@dimen/privacymode_content_type_item_marginleft" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/privacymode_content_type_item_title_marginleft" android:layout_toRightOf="@id/iv_privacymode_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/privacymode_content_type_item_title_size" android:textColor="#ffffff" android:id="@id/tv_privacymode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/privacymode_content_type_item_content_size" android:textColor="#666666" android:id="@id/tv_privacymode_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/privacymode_content_type_margintop" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_privacymode_arrow" android:layout_width="UNKNOWN_DATA_0x7f090258" android:layout_height="UNKNOWN_DATA_0x7f090258" android:layout_marginRight="@dimen/privacymode_content_type_arrow_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/iv_privacy_mode_right_desc_icon" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f090259" android:layout_height="UNKNOWN_DATA_0x7f090259" />
+</FrameLayout>

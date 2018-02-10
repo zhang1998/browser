@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/bm_ll_bg" android:paddingLeft="@dimen/common_dialog_margin_left" android:paddingTop="@dimen/common_dialog_margin_top" android:paddingRight="@dimen/common_dialog_margin_left" android:paddingBottom="@dimen/common_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_text_size" android:textColor="@color/common_titlebar_title_color" android:ellipsize="end" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_two_text_dialog_content_margin_top">
+        <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/checkbox_btn" android:layout_width="UNKNOWN_DATA_0x7f090101" android:layout_height="UNKNOWN_DATA_0x7f090101" android:layout_marginRight="@dimen/dialog_selection_box_margin_right" />
+        <com.ucpro.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_small_text_size" android:textColor="@color/common_titlebar_content_color" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

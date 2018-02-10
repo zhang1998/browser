@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/download_rename_dialog_margin" app:layout_marginRight="@dimen/download_rename_dialog_margin">
+        <com.ucpro.ui.widget.auto.theme.ATTextView app:textSize="@dimen/download_rename_dialog_text_size" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/tv_rename_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/download_rename_dialog_margin" />
+        <com.ucpro.ui.widget.auto.theme.ATTextView app:textSize="@dimen/download_rename_dialog_small_text_size" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/tv_warn_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/download_rename_dialog_margin" />
+        <com.ucweb.materialedittext.MaterialEditText app:textSize="@dimen/download_rename_dialog_text_size" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/et_rename" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/bookmark_revise_content_margin_8dp" app:layout_marginTop="@dimen/download_rename_dialog_margin_top" app:layout_marginRight="@dimen/bookmark_revise_content_margin_8dp" app:met_floatingLabel="2" app:met_singleLineEllipsis="true" app:met_clearButton="true" />
+    </LinearLayout>
+</FrameLayout>

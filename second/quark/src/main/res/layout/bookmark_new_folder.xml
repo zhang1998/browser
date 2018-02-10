@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.ucweb.materialedittext.MaterialEditText app:textSize="@dimen/bookmark_edittext_text_size" app:id="@id/bm_et_folder_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/bookmark_edittext_margin_left" app:layout_marginTop="@dimen/bookmark_edittext_margin_top" app:layout_marginRight="@dimen/bookmark_edittext_margin_right" app:met_floatingLabel="2" app:met_singleLineEllipsis="true" app:met_clearButton="true" />
+    <com.ucweb.materialedittext.MaterialEditText app:textSize="@dimen/bookmark_edittext_text_size" app:id="@id/bm_et_folder_content" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/bookmark_edittext_margin_left" app:layout_marginTop="@dimen/bookmark_edittext_margin_top" app:layout_marginRight="@dimen/bookmark_edittext_margin_right" app:met_floatingLabel="2" app:met_singleLineEllipsis="true" app:met_clearButton="true" />
+</LinearLayout>
